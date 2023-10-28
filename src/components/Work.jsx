@@ -3,9 +3,16 @@ import React from "react";
 export default function Work() {
   const cards = [
     {
+      img: "hyugaai",
+      title: "Hyuga AI",
+      desc: "Hyuga AI generates AI images for absolutely free",
+      link1: "https://hyugaai.netlify.app",
+      link2: "https://github.com/Rayid-Ashraf/Hyuga-AI",
+    },
+    {
       img: "updo",
       title: "Updo",
-      desc: "Updo is a webapp that allows you to share your files for one device to another vai internet",
+      desc: "Updo allows you to share your files for one device to another vai internet",
       link1: "https://updo.netlify.app",
       link2: "https://github.com/Rayid-Ashraf/Updo",
     },
@@ -16,13 +23,6 @@ export default function Work() {
       link1: "https://color2code.netlify.app",
       link2: "#",
     },
-    {
-      img: "dailyplanner",
-      title: "Daily Planner",
-      desc: "This webapp is for anyone who wants to schedule his/her day more efficiently  ",
-      link1: "https://mydailyplanner.netlify.app",
-      link2: "https://github.com/Rayid-Ashraf/Daily-Planner",
-    },
   ];
   return (
     <div className="text-center mt-28 lg:mt-8 rounded-3xl ">
@@ -31,17 +31,17 @@ export default function Work() {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col max-w-xs gap-5 p-4 bg-white shadow-[0px_0px_8px_0px_rgba(0,0,0,0.25)] rounded-2xl sm:flex-row sm:max-w-xl lg:max-w-sm lg:flex-col"
+            className="flex flex-col max-w-xs gap-5 h-[400px] p-4 bg-white shadow-[0px_0px_8px_0px_rgba(0,0,0,0.25)] rounded-2xl sm:flex-row sm:max-w-xl lg:max-w-sm lg:flex-col"
             data-aos={"fade-up"}
           >
             <div className="sm:w-full ">
               <img
-                className="rounded-lg border-2 border-gray-100 sm:h-full sm:w-auto lg:w-full min-w-[240px]"
+                className="rounded-lg border-2 border-gray-100 sm:h-full sm:w-auto lg:w-full min-w-[240px] "
                 src={`./assets/${card.img}.svg`}
                 alt=""
               />
             </div>
-            <div className="">
+            <div className=" h-full flex flex-col justify-between">
               <h3 className="mb-2">{card.title}</h3>
               <p className="mb-4">{card.desc}</p>
               <div className="flex justify-center gap-6 sm:justify-start lg:justify-evenly">

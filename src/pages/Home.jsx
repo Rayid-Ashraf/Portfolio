@@ -104,8 +104,8 @@ export default function Home() {
             />
             <Project
               name={"Findtool"}
-              desc={"Find right tools for every your every job"}
-              url={"https://findtoolspace.vercel.app/"}
+              desc={"Find right tools for your every job"}
+              url={"https://findtool.vercel.app/"}
             />
 
             <Project

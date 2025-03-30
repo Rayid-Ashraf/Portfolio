@@ -81,10 +81,16 @@ export default function Home() {
               <span>React JS</span>
             </div>
             <div className="skill">
+              <span>Next JS</span>
+            </div>
+            <div className="skill">
               <span>Tailwind</span>
             </div>
             <div className="skill">
               <span>Firebase</span>
+            </div>
+            <div className="skill">
+              <span>Supabase</span>
             </div>
             <div className="skill">
               <span>Figma</span>
@@ -103,6 +109,16 @@ export default function Home() {
               url={"https://imgcolorpicker.vercel.app/"}
             />
             <Project
+              name={"Design Shots"}
+              desc={"Browser Extension to collect Design Inspirations"}
+              url={"https://www.designshots.co/"}
+            />
+            <Project
+              name={"Updo"}
+              desc={"Tool to access your files from anywhere"}
+              url={"https://updo.netlify.app/"}
+            />
+            <Project
               name={"Findtool"}
               desc={"Find right tools for your every job"}
               url={"https://findtool.vercel.app/"}
@@ -112,12 +128,6 @@ export default function Home() {
               name={"Hyuga AI"}
               desc={"Generate images from text with the help of AI"}
               url={"https://hyugaai.netlify.app/"}
-            />
-
-            <Project
-              name={"Updo"}
-              desc={"Tool to access your files from anywhere"}
-              url={"https://updo.netlify.app/"}
             />
           </div>
         </div>

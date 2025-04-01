@@ -59,10 +59,11 @@ export default function Home() {
         <div className="mt-12">
           <h1 className="text-3xl font-bold">About me</h1>
           <p className="mt-2">
-            My name is Rayid Ashraf and I am a 17y/o high school student. I
-            started my coding journey in 2021 with a passion for solving
-            real-world problems and of course for making money. To date, I have
-            built multiple projects and generated an income of approx. $100.
+            My name is Rayid Ashraf, and I am a 17-year-old high school student.
+            I started my coding journey in 2021 with a passion for solving
+            real-world problems — and, of course, making money. So far, I have
+            built multiple projects and generated an income of approximately
+            $200.
           </p>
         </div>
         <div className="mt-10">
@@ -106,6 +107,11 @@ export default function Home() {
             <Project
               name={"Color Picker"}
               desc={"Tool for extracting colors from images"}
+              url={"https://imgcolorpicker.vercel.app/"}
+            />
+            <Project
+              name={"Noise Tools"}
+              desc={"Tool to add noise texture to your images"}
               url={"https://imgcolorpicker.vercel.app/"}
             />
             <Project

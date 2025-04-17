@@ -110,20 +110,21 @@ export default function Home() {
               url={"https://imgcolorpicker.vercel.app/"}
             />
             <Project
+              name={"Dead Drop"}
+              desc={"Tool to share your files Securely"}
+              url={"https://deaddrop.space/"}
+            />
+            <Project
               name={"Noise Tools"}
               desc={"Tool to add noise texture to your images"}
-              url={"https://imgcolorpicker.vercel.app/"}
+              url={"https://noisetools.vercel.app/"}
             />
             <Project
               name={"Design Shots"}
               desc={"Browser Extension to collect Design Inspirations"}
               url={"https://www.designshots.co/"}
             />
-            <Project
-              name={"Updo"}
-              desc={"Tool to access your files from anywhere"}
-              url={"https://updo.netlify.app/"}
-            />
+
             <Project
               name={"Findtool"}
               desc={"Find right tools for your every job"}

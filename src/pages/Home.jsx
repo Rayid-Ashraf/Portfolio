@@ -58,14 +58,13 @@ export default function Home() {
         </div>
         <div className="mt-12">
           <h1 className="text-3xl font-bold">About me</h1>
-          <p className="mt-2">
-            My name is Rayid Ashraf, and I'm a high school student. I began my
-            coding journey in 2021, driven by a passion for solving real-world
-            problems. Over the years, I've developed a deep love for creating
-            software that can make a difference. Through my projects, I aim to
-            have a positive impact on as many people as possible, building tools
-            that address real-world challenges and contribute to meaningful
-            change.
+          <p className="mt-2 opacity-80">
+            I'm a high school student. I began my coding journey in 2021, driven
+            by a passion for solving real-world problems. Over the years, I've
+            developed a deep love for creating software that can make a
+            difference. Through my projects, I aim to have a positive impact on
+            as many people as possible, building tools that address real-world
+            challenges and contribute to meaningful change.
           </p>
         </div>
         <div className="mt-10">
